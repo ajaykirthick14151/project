@@ -1,0 +1,11 @@
+
+employee = {}
+
+employee["id"] = input("Enter employee ID: ")
+employee["name"] = input("Enter employee name: ")
+employee["salary"] = float(input("Enter salary: "))
+
+print("\nEmployee Details")
+print("ID:", employee["id"])
+print("Name:", employee["name"])
+print("Salary:", employee["salary"])

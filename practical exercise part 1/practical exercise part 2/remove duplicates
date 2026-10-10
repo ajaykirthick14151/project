@@ -1,0 +1,6 @@
+
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+result = list(dict.fromkeys(numbers))
+
+print("List without duplicates:", result)
